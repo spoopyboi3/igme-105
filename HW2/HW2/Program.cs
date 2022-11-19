@@ -10,7 +10,7 @@ using System.Threading.Tasks;
  *Modifications: 9/12 - Fixed issue with Y/N response at start, added more story, created steps puzzle and all responses 9/24- started adding content for HW2 assignment (random, nested ifs, switch, loops) 9/27-HW2 mostly finished 10/14-HW3 started
  */
 //The monster is created when you fail the second basement room
-//Git repository link: git@kgcoe-git.rit.edu:atg5699/igme-105.git
+//Git repository link: https://github.com/spoopyboi3/igme-105.git
 namespace Getaway
 {
     internal class Program

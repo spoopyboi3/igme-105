@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Profiles\\atg5699\\source\\repos\\PE 105\\PE17\\PE17\\PE17.csproj": {}
+    "D:\\Profiles\\atg5699\\source\\repos\\igme-105\\PE17\\PE17\\PE17.csproj": {}
   },
   "projects": {
-    "D:\\Profiles\\atg5699\\source\\repos\\PE 105\\PE17\\PE17\\PE17.csproj": {
+    "D:\\Profiles\\atg5699\\source\\repos\\igme-105\\PE17\\PE17\\PE17.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Profiles\\atg5699\\source\\repos\\PE 105\\PE17\\PE17\\PE17.csproj",
+        "projectUniqueName": "D:\\Profiles\\atg5699\\source\\repos\\igme-105\\PE17\\PE17\\PE17.csproj",
         "projectName": "PE17",
-        "projectPath": "D:\\Profiles\\atg5699\\source\\repos\\PE 105\\PE17\\PE17\\PE17.csproj",
+        "projectPath": "D:\\Profiles\\atg5699\\source\\repos\\igme-105\\PE17\\PE17\\PE17.csproj",
         "packagesPath": "D:\\Profiles\\atg5699\\.nuget\\packages\\",
-        "outputPath": "D:\\Profiles\\atg5699\\source\\repos\\PE 105\\PE17\\PE17\\obj\\",
+        "outputPath": "D:\\Profiles\\atg5699\\source\\repos\\igme-105\\PE17\\PE17\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "Z:\\IGMProfile\\AppData\\NuGet\\NuGet.Config",
