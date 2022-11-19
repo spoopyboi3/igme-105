@@ -1,0 +1,15 @@
+D:\Profiles\atg5699\source\repos\PE 105\PE17\PE17\bin\Debug\net6.0\PE17.exe
+D:\Profiles\atg5699\source\repos\PE 105\PE17\PE17\bin\Debug\net6.0\PE17.deps.json
+D:\Profiles\atg5699\source\repos\PE 105\PE17\PE17\bin\Debug\net6.0\PE17.runtimeconfig.json
+D:\Profiles\atg5699\source\repos\PE 105\PE17\PE17\bin\Debug\net6.0\PE17.dll
+D:\Profiles\atg5699\source\repos\PE 105\PE17\PE17\bin\Debug\net6.0\PE17.pdb
+D:\Profiles\atg5699\source\repos\PE 105\PE17\PE17\obj\Debug\net6.0\PE17.csproj.AssemblyReference.cache
+D:\Profiles\atg5699\source\repos\PE 105\PE17\PE17\obj\Debug\net6.0\PE17.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\atg5699\source\repos\PE 105\PE17\PE17\obj\Debug\net6.0\PE17.AssemblyInfoInputs.cache
+D:\Profiles\atg5699\source\repos\PE 105\PE17\PE17\obj\Debug\net6.0\PE17.AssemblyInfo.cs
+D:\Profiles\atg5699\source\repos\PE 105\PE17\PE17\obj\Debug\net6.0\PE17.csproj.CoreCompileInputs.cache
+D:\Profiles\atg5699\source\repos\PE 105\PE17\PE17\obj\Debug\net6.0\PE17.dll
+D:\Profiles\atg5699\source\repos\PE 105\PE17\PE17\obj\Debug\net6.0\refint\PE17.dll
+D:\Profiles\atg5699\source\repos\PE 105\PE17\PE17\obj\Debug\net6.0\PE17.pdb
+D:\Profiles\atg5699\source\repos\PE 105\PE17\PE17\obj\Debug\net6.0\PE17.genruntimeconfig.cache
+D:\Profiles\atg5699\source\repos\PE 105\PE17\PE17\obj\Debug\net6.0\ref\PE17.dll

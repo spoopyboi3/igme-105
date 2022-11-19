@@ -1,0 +1,15 @@
+D:\Profiles\atg5699\source\repos\PE 105\Trouble\Trouble\bin\Debug\net6.0\Trouble.exe
+D:\Profiles\atg5699\source\repos\PE 105\Trouble\Trouble\bin\Debug\net6.0\Trouble.deps.json
+D:\Profiles\atg5699\source\repos\PE 105\Trouble\Trouble\bin\Debug\net6.0\Trouble.runtimeconfig.json
+D:\Profiles\atg5699\source\repos\PE 105\Trouble\Trouble\bin\Debug\net6.0\Trouble.dll
+D:\Profiles\atg5699\source\repos\PE 105\Trouble\Trouble\bin\Debug\net6.0\Trouble.pdb
+D:\Profiles\atg5699\source\repos\PE 105\Trouble\Trouble\obj\Debug\net6.0\Trouble.csproj.AssemblyReference.cache
+D:\Profiles\atg5699\source\repos\PE 105\Trouble\Trouble\obj\Debug\net6.0\Trouble.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\atg5699\source\repos\PE 105\Trouble\Trouble\obj\Debug\net6.0\Trouble.AssemblyInfoInputs.cache
+D:\Profiles\atg5699\source\repos\PE 105\Trouble\Trouble\obj\Debug\net6.0\Trouble.AssemblyInfo.cs
+D:\Profiles\atg5699\source\repos\PE 105\Trouble\Trouble\obj\Debug\net6.0\Trouble.csproj.CoreCompileInputs.cache
+D:\Profiles\atg5699\source\repos\PE 105\Trouble\Trouble\obj\Debug\net6.0\Trouble.dll
+D:\Profiles\atg5699\source\repos\PE 105\Trouble\Trouble\obj\Debug\net6.0\refint\Trouble.dll
+D:\Profiles\atg5699\source\repos\PE 105\Trouble\Trouble\obj\Debug\net6.0\Trouble.pdb
+D:\Profiles\atg5699\source\repos\PE 105\Trouble\Trouble\obj\Debug\net6.0\Trouble.genruntimeconfig.cache
+D:\Profiles\atg5699\source\repos\PE 105\Trouble\Trouble\obj\Debug\net6.0\ref\Trouble.dll

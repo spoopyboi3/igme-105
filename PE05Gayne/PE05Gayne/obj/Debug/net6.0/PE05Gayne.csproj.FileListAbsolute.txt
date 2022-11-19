@@ -1,0 +1,15 @@
+D:\Profiles\atg5699\source\repos\PE 105\PE05Gayne\PE05Gayne\bin\Debug\net6.0\PE05Gayne.exe
+D:\Profiles\atg5699\source\repos\PE 105\PE05Gayne\PE05Gayne\bin\Debug\net6.0\PE05Gayne.deps.json
+D:\Profiles\atg5699\source\repos\PE 105\PE05Gayne\PE05Gayne\bin\Debug\net6.0\PE05Gayne.runtimeconfig.json
+D:\Profiles\atg5699\source\repos\PE 105\PE05Gayne\PE05Gayne\bin\Debug\net6.0\PE05Gayne.dll
+D:\Profiles\atg5699\source\repos\PE 105\PE05Gayne\PE05Gayne\bin\Debug\net6.0\PE05Gayne.pdb
+D:\Profiles\atg5699\source\repos\PE 105\PE05Gayne\PE05Gayne\obj\Debug\net6.0\PE05Gayne.csproj.AssemblyReference.cache
+D:\Profiles\atg5699\source\repos\PE 105\PE05Gayne\PE05Gayne\obj\Debug\net6.0\PE05Gayne.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\atg5699\source\repos\PE 105\PE05Gayne\PE05Gayne\obj\Debug\net6.0\PE05Gayne.AssemblyInfoInputs.cache
+D:\Profiles\atg5699\source\repos\PE 105\PE05Gayne\PE05Gayne\obj\Debug\net6.0\PE05Gayne.AssemblyInfo.cs
+D:\Profiles\atg5699\source\repos\PE 105\PE05Gayne\PE05Gayne\obj\Debug\net6.0\PE05Gayne.csproj.CoreCompileInputs.cache
+D:\Profiles\atg5699\source\repos\PE 105\PE05Gayne\PE05Gayne\obj\Debug\net6.0\PE05Gayne.dll
+D:\Profiles\atg5699\source\repos\PE 105\PE05Gayne\PE05Gayne\obj\Debug\net6.0\refint\PE05Gayne.dll
+D:\Profiles\atg5699\source\repos\PE 105\PE05Gayne\PE05Gayne\obj\Debug\net6.0\PE05Gayne.pdb
+D:\Profiles\atg5699\source\repos\PE 105\PE05Gayne\PE05Gayne\obj\Debug\net6.0\PE05Gayne.genruntimeconfig.cache
+D:\Profiles\atg5699\source\repos\PE 105\PE05Gayne\PE05Gayne\obj\Debug\net6.0\ref\PE05Gayne.dll
