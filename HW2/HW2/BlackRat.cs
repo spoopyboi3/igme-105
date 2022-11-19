@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-/*Name: HW6 - The Getaway
+/*Name: HW5 - The Getaway
  *Creator: Alex Gayne
  *Date: 11/17/2022
  *Purpose: Make a text based adventure game
@@ -11,8 +11,34 @@ using System.Threading.Tasks;
  */
 namespace Getaway
 {
-    internal class BlackRat: BigRat
+    internal class BlackRat: BigRat, Iedible
     {
+        private bool isConsumed = false;
+
+        public bool ISConsumed
+        {
+            get { return isConsumed; }
+            set { isConsumed = value; }
+        }
+
+        public void Bite(bool ISConsumed)
+        {
+            if (isConsumed == false)
+            {
+                Console.WriteLine("There's still a bit left, keep going");
+            }
+            else
+            {
+                Console.WriteLine("You ate it... Monster");
+            }
+        }
+
+        public bool IsConsumed()
+        {
+            isConsumed = true;
+            return isConsumed;
+        }
+
         const int attackSkill = 4;
         public int AttackSkill
         {

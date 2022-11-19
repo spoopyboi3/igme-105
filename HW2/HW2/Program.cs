@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-/*Name: HW6 - The Getaway
+/*Name: HW5 - The Getaway
  *Creator: Alex Gayne
  *Date: 11/17/2022
  *Purpose: Make a text based adventure game
@@ -50,7 +50,7 @@ namespace Getaway
             Building.FrontDoor(setup.PlayerName, building.Dice, building.Dice2, building.Total);
 
             //challenge once door is unlocked
-            Building.FrontDoorChallenge(setup.Letter, animals.Eyes, animals.Toes, animals.Names, animals.Legs, setup.Difficulty);
+            Building.FrontDoorChallenge(setup.Letter, animals.Eyes, animals.Toes, animals.Names, animals.Legs, setup.Difficulty, animals.ISConsumed);
 
             //Make it into the house, start in lower hallway, connects to living room and study
             Building.ColorObject(building.My_Colors);

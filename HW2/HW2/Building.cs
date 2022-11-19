@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-/*Name: HW6 - The Getaway
+/*Name: HW5 - The Getaway
  *Creator: Alex Gayne
  *Date: 11/17/2022
  *Purpose: Make a text based adventure game
@@ -77,8 +77,9 @@ namespace Getaway
         }
 
         //challenge for once the door is open
-        public static void FrontDoorChallenge(char letter, int[] eyes, int[] toes, string[] name, int[] legs, int Difficulty)
+        public static void FrontDoorChallenge(char letter, int[] eyes, int[] toes, string[] name, int[] legs, int Difficulty, bool isConsumed)
         {
+            Animals animals = new Animals();
             int first = Setup.DiceRoll(0,11,1);
             int second = Setup.DiceRoll(0, 11, 1);
             Console.Clear();
@@ -105,7 +106,7 @@ namespace Getaway
                 //crow interaction
                 case 'L':
                     Console.WriteLine("You approach " + name[first] + " as it sits and watches you intelligently. It caws at you but other than that just watches");
-                    Console.WriteLine("Please choose what to do: (F)eed it or (S)hoo away");
+                    Console.WriteLine("Please choose what to do: (F)eed it, (S)hoo away or (E)at");
                     choice = Console.ReadLine().Trim().ToUpper();
                     Setup.ValidateData(choice);
                     letter =choice[0];
@@ -120,6 +121,12 @@ namespace Getaway
                         Console.WriteLine("You try to shoo the crow away, but it lets out a high pitched screech.\nSuddenly you are swarmed by crows and pecked to death.");
                         goto default;
                     }
+                    if(letter == 'E')
+                    {
+                        Console.WriteLine("What's wrong with you");
+                        animals.Bite(animals.ISConsumed);
+                        break;
+                    }
                     else
                     {
                         Console.WriteLine("You stand and wait, waiting for so long you die of old age");
@@ -129,7 +136,7 @@ namespace Getaway
                 //rat interaction
                 case 'R':
                     Console.WriteLine("You approach " + name[second] +  " as it sits and watches with beady eyes.\nIt lets out a squawk as you approach and flaps it's wings");
-                    Console.WriteLine("Please choose what to do: (F)eed it or (S)hoo away");
+                    Console.WriteLine("Please choose what to do: (F)eed it, (S)hoo away, or (E)at");
                     choice = Console.ReadLine().Trim().ToUpper();
                     Setup.ValidateData(choice);
                     letter = choice[0];
@@ -142,6 +149,12 @@ namespace Getaway
                     {
                         Console.WriteLine("You step up to " + name[second] +  " and make a loud noise while waving your arms around.\nBoth get scared off.\nYou can pass through the door now\nPress enter to continue");
                         Console.ReadLine();
+                        break;
+                    }
+                    if (letter == 'E')
+                    {
+                        Console.WriteLine("What's wrong with you");
+                        animals.Bite(animals.ISConsumed);
                         break;
                     }
                     else

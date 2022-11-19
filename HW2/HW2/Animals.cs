@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-/*Name: HW6 - The Getaway
+/*Name: HW5 - The Getaway
  *Creator: Alex Gayne
  *Date: 11/17/2022
  *Purpose: Make a text based adventure game
@@ -11,8 +11,52 @@ using System.Threading.Tasks;
  */
 namespace Getaway
 {
-    internal class Animals
+    internal class Animals: Iedible
     {
+        private bool isConsumed = false;
+
+        public bool ISConsumed
+        {
+            get { return isConsumed; }
+            set { isConsumed = value; }
+        }
+        private int numChunks = 3;
+        public int NumChunks
+        { 
+            get { return numChunks; } 
+            set { numChunks = value; }
+        }
+
+        public void Bite(bool ISConsumed)
+        {
+            while(isConsumed == false)
+            {
+                NumChunks--;
+                IsConsumed();
+                if(isConsumed == true)
+                {
+                    break;
+                }    
+                Console.WriteLine("You take a bite out of it. There's still " + NumChunks + " pieces left, the creature screams in agony\nKeep going\nPress enter");
+                Console.ReadLine();
+            }
+            
+            Console.WriteLine("You ate it... Monster\nPress enter to continue");
+            Console.ReadLine();
+            
+        }
+
+        public bool IsConsumed()
+        {
+            if(NumChunks == 0)
+            {
+                isConsumed = true;
+                return isConsumed;
+            }
+            return false;
+        }
+
+
         //animal attributes and properties
         int[] eyes = new int[10] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
