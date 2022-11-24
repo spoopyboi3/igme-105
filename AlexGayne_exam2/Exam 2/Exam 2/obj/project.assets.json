@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "D:\\Profiles\\atg5699\\.nuget\\packages\\": {}
+    "C:\\Users\\agayn\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AlexGayne_exam2\\Exam 2\\Exam 2\\Exam 2.csproj",
+      "projectUniqueName": "C:\\Users\\agayn\\OneDrive\\Documents\\GitHub\\igme-105\\AlexGayne_exam2\\Exam 2\\Exam 2\\Exam 2.csproj",
       "projectName": "Exam 2",
-      "projectPath": "D:\\AlexGayne_exam2\\Exam 2\\Exam 2\\Exam 2.csproj",
-      "packagesPath": "D:\\Profiles\\atg5699\\.nuget\\packages\\",
-      "outputPath": "D:\\AlexGayne_exam2\\Exam 2\\Exam 2\\obj\\",
+      "projectPath": "C:\\Users\\agayn\\OneDrive\\Documents\\GitHub\\igme-105\\AlexGayne_exam2\\Exam 2\\Exam 2\\Exam 2.csproj",
+      "packagesPath": "C:\\Users\\agayn\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\agayn\\OneDrive\\Documents\\GitHub\\igme-105\\AlexGayne_exam2\\Exam 2\\Exam 2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "Z:\\IGMProfile\\AppData\\NuGet\\NuGet.Config",
+        "C:\\Users\\agayn\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -60,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

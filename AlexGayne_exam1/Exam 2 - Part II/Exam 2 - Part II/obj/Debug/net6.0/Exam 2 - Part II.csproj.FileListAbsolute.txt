@@ -1,0 +1,15 @@
+C:\Users\agayn\OneDrive\Documents\GitHub\igme-105\AlexGayne_exam1\Exam 2 - Part II\Exam 2 - Part II\bin\Debug\net6.0\Exam 2 - Part II.exe
+C:\Users\agayn\OneDrive\Documents\GitHub\igme-105\AlexGayne_exam1\Exam 2 - Part II\Exam 2 - Part II\bin\Debug\net6.0\Exam 2 - Part II.deps.json
+C:\Users\agayn\OneDrive\Documents\GitHub\igme-105\AlexGayne_exam1\Exam 2 - Part II\Exam 2 - Part II\bin\Debug\net6.0\Exam 2 - Part II.runtimeconfig.json
+C:\Users\agayn\OneDrive\Documents\GitHub\igme-105\AlexGayne_exam1\Exam 2 - Part II\Exam 2 - Part II\bin\Debug\net6.0\Exam 2 - Part II.dll
+C:\Users\agayn\OneDrive\Documents\GitHub\igme-105\AlexGayne_exam1\Exam 2 - Part II\Exam 2 - Part II\bin\Debug\net6.0\Exam 2 - Part II.pdb
+C:\Users\agayn\OneDrive\Documents\GitHub\igme-105\AlexGayne_exam1\Exam 2 - Part II\Exam 2 - Part II\obj\Debug\net6.0\Exam 2 - Part II.csproj.AssemblyReference.cache
+C:\Users\agayn\OneDrive\Documents\GitHub\igme-105\AlexGayne_exam1\Exam 2 - Part II\Exam 2 - Part II\obj\Debug\net6.0\Exam 2 - Part II.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agayn\OneDrive\Documents\GitHub\igme-105\AlexGayne_exam1\Exam 2 - Part II\Exam 2 - Part II\obj\Debug\net6.0\Exam 2 - Part II.AssemblyInfoInputs.cache
+C:\Users\agayn\OneDrive\Documents\GitHub\igme-105\AlexGayne_exam1\Exam 2 - Part II\Exam 2 - Part II\obj\Debug\net6.0\Exam 2 - Part II.AssemblyInfo.cs
+C:\Users\agayn\OneDrive\Documents\GitHub\igme-105\AlexGayne_exam1\Exam 2 - Part II\Exam 2 - Part II\obj\Debug\net6.0\Exam 2 - Part II.csproj.CoreCompileInputs.cache
+C:\Users\agayn\OneDrive\Documents\GitHub\igme-105\AlexGayne_exam1\Exam 2 - Part II\Exam 2 - Part II\obj\Debug\net6.0\Exam 2 - Part II.dll
+C:\Users\agayn\OneDrive\Documents\GitHub\igme-105\AlexGayne_exam1\Exam 2 - Part II\Exam 2 - Part II\obj\Debug\net6.0\refint\Exam 2 - Part II.dll
+C:\Users\agayn\OneDrive\Documents\GitHub\igme-105\AlexGayne_exam1\Exam 2 - Part II\Exam 2 - Part II\obj\Debug\net6.0\Exam 2 - Part II.pdb
+C:\Users\agayn\OneDrive\Documents\GitHub\igme-105\AlexGayne_exam1\Exam 2 - Part II\Exam 2 - Part II\obj\Debug\net6.0\Exam 2 - Part II.genruntimeconfig.cache
+C:\Users\agayn\OneDrive\Documents\GitHub\igme-105\AlexGayne_exam1\Exam 2 - Part II\Exam 2 - Part II\obj\Debug\net6.0\ref\Exam 2 - Part II.dll
