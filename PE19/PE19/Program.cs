@@ -13,6 +13,9 @@ namespace PE19
     {
         static void Main(string[] args)
         {
+            Directory.CreateDirectory("PE19");
+            Binary.CreatePlanes();
+
             
 
 

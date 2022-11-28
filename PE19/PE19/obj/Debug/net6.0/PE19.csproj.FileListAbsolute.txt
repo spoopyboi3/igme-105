@@ -1,0 +1,15 @@
+D:\Profiles\atg5699\source\repos\igme-105\PE19\PE19\bin\Debug\net6.0\PE19.exe
+D:\Profiles\atg5699\source\repos\igme-105\PE19\PE19\bin\Debug\net6.0\PE19.deps.json
+D:\Profiles\atg5699\source\repos\igme-105\PE19\PE19\bin\Debug\net6.0\PE19.runtimeconfig.json
+D:\Profiles\atg5699\source\repos\igme-105\PE19\PE19\bin\Debug\net6.0\PE19.dll
+D:\Profiles\atg5699\source\repos\igme-105\PE19\PE19\bin\Debug\net6.0\PE19.pdb
+D:\Profiles\atg5699\source\repos\igme-105\PE19\PE19\obj\Debug\net6.0\PE19.csproj.AssemblyReference.cache
+D:\Profiles\atg5699\source\repos\igme-105\PE19\PE19\obj\Debug\net6.0\PE19.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\atg5699\source\repos\igme-105\PE19\PE19\obj\Debug\net6.0\PE19.AssemblyInfoInputs.cache
+D:\Profiles\atg5699\source\repos\igme-105\PE19\PE19\obj\Debug\net6.0\PE19.AssemblyInfo.cs
+D:\Profiles\atg5699\source\repos\igme-105\PE19\PE19\obj\Debug\net6.0\PE19.csproj.CoreCompileInputs.cache
+D:\Profiles\atg5699\source\repos\igme-105\PE19\PE19\obj\Debug\net6.0\PE19.dll
+D:\Profiles\atg5699\source\repos\igme-105\PE19\PE19\obj\Debug\net6.0\refint\PE19.dll
+D:\Profiles\atg5699\source\repos\igme-105\PE19\PE19\obj\Debug\net6.0\PE19.pdb
+D:\Profiles\atg5699\source\repos\igme-105\PE19\PE19\obj\Debug\net6.0\PE19.genruntimeconfig.cache
+D:\Profiles\atg5699\source\repos\igme-105\PE19\PE19\obj\Debug\net6.0\ref\PE19.dll
