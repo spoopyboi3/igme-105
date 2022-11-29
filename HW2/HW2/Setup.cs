@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-/*Name: HW5 - The Getaway
+using System.IO;
+/*Name: HW6 - The Getaway
  *Creator: Alex Gayne
  *Date: 11/17/2022
  *Purpose: Make a text based adventure game
@@ -13,6 +14,31 @@ namespace Getaway
 {
     internal class Setup
     {
+        StreamWriter writer = new StreamWriter("HW2");
+
+        public static void Save(StreamWriter writer, int progress)
+        {
+            Console.WriteLine("Saving will overwrite your previous save, are you sure? (Y/N)");
+            string response = Console.ReadLine();
+            if(response == "Y")
+            {
+                writer.WriteLine(progress);
+            }
+            if(response == "N")
+            {
+                Console.WriteLine("Your funeral... enter to continue");
+                Console.ReadLine();
+            }
+        }
+
+        public static void Load()
+        {
+
+
+
+        }
+
+
         string character = "John";
         public string Character
         {
