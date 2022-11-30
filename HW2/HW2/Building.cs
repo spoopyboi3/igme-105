@@ -73,7 +73,7 @@ namespace Getaway
                 Console.WriteLine("Press enter to continue");
                 Console.ReadLine();
             }
-
+            Setup.Save(2);
         }
 
         //challenge for once the door is open
@@ -268,6 +268,7 @@ namespace Getaway
                         Console.ReadLine();
                         break;
                 }
+                Setup.Save(3);
             }
         }
 

@@ -25,51 +25,60 @@ namespace Getaway
             Building building = new Building();
             Yard yard = new Yard();
             BlackRat blackRat = new BlackRat();
+            int progress = 0;
+            Setup.NewGame();
 
+            switch (progress)
+            {
+                case 0:
+                    //welcome player
+                    Setup.Welcome();
 
+                    Setup.DifficultyChoice(setup.Difficulty, building.Crows);
 
-            //welcome player
-            Setup.Welcome();
+                    //Get player name
+                    setup.PlayerName = Setup.GetPlayer(setup.PlayerName);
 
-            Setup.DifficultyChoice(setup.Difficulty, building.Crows);
+                    //gather user data
+                    Setup.GatherData(setup.Numbers, animals.Legs, setup.Letter);
 
-            //Get player name
-            setup.PlayerName = Setup.GetPlayer(setup.PlayerName);
+                    //get second name
+                    setup.Character = Setup.GetCharacter(setup.Character);
 
-            //gather user data
-            Setup.GatherData(setup.Numbers, animals.Legs, setup.Letter);
+                    //story
+                    Setup.Intro(setup.PlayerName, setup.Character, setup.Letter);
+                    goto case 1;
 
-            //get second name
-            setup.Character = Setup.GetCharacter(setup.Character);
-            
+                case 1:
+                    //yard method
+                    Yard.Walking(setup.Character, yard.Steps_Needed);
 
-            //story
-            Setup.Intro(setup.PlayerName, setup.Character, setup.Letter);
+                    //Front door is locked, use method
+                    Building.FrontDoor(setup.PlayerName, building.Dice, building.Dice2, building.Total);
+                    goto case 2;
 
-            //yard method
-            Yard.Walking(setup.Character, yard.Steps_Needed);
-            
-            //Front door is locked, use method
-            Building.FrontDoor(setup.PlayerName, building.Dice, building.Dice2, building.Total);
+                case 2:
+                    //challenge once door is unlocked
+                    Building.FrontDoorChallenge(setup.Letter, animals.Eyes, animals.Toes, animals.Names, animals.Legs, setup.Difficulty, animals.ISConsumed);
 
-            //challenge once door is unlocked
-            Building.FrontDoorChallenge(setup.Letter, animals.Eyes, animals.Toes, animals.Names, animals.Legs, setup.Difficulty, animals.ISConsumed);
+                    //Make it into the house, start in lower hallway, connects to living room and study
+                    Building.ColorObject(building.My_Colors);
 
-            //Make it into the house, start in lower hallway, connects to living room and study
-            Building.ColorObject(building.My_Colors);
+                    //Player moves through house untill reaching basement
+                    Building.BldgRooms(setup.Letter, setup.Character, setup.PlayerName, setup.FoodList);
+                    goto case 3;
 
-            //Player moves through house untill reaching basement
-            Building.BldgRooms(setup.Letter, setup.Character, setup.PlayerName, setup.FoodList);
+                case 3:
+                    //in basement, move through obstacles to generator
+                    Basement.BasementRooms(basement.BaseMove, setup.Letter, blackRat.AttackSkill);
+                    goto default;
 
-            //in basement, move through obstacles to generator
-            Basement.BasementRooms(basement.BaseMove, setup.Letter, blackRat.AttackSkill);
+                default:
+                    //ending sequence
+                    Setup.Ending(setup.PlayerName, setup.Character);
+                    break;
 
-            //ending sequence
-            Setup.Ending(setup.PlayerName, setup.Character);
-
-
+            }
         }
-
-
     }
 }

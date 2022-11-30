@@ -14,15 +14,32 @@ namespace Getaway
 {
     internal class Setup
     {
-        StreamWriter writer = new StreamWriter("HW2");
+        static StreamWriter writer = new StreamWriter("HW2");
+        
 
-        public static void Save(StreamWriter writer, int progress)
+        public static void NewGame()
+        {
+            Console.WriteLine("Start a new game or load previous save? (Y/N)");
+            string response = Console.ReadLine();
+            if(response == "Y")
+            {
+                Setup.Load();
+            }
+            if(response == "N")
+            {
+
+            }
+        }
+
+
+        public static void Save(int progress)
         {
             Console.WriteLine("Saving will overwrite your previous save, are you sure? (Y/N)");
             string response = Console.ReadLine();
             if(response == "Y")
             {
                 writer.WriteLine(progress);
+                writer.Close();
             }
             if(response == "N")
             {
@@ -31,11 +48,13 @@ namespace Getaway
             }
         }
 
-        public static void Load()
+        public static int Load()
         {
-
-
-
+            StreamReader reader = new StreamReader("HW2");
+            int progress;
+            int.TryParse(reader.ReadLine(), out progress);
+            reader.Close();
+            return progress;
         }
 
 
@@ -298,8 +317,8 @@ namespace Getaway
             Console.WriteLine("\n\nAfter a few weeks, you decide to go see how the place has been holding up for all these years.\nYou do own it now after all.");
             Console.WriteLine("You prepare some things to take with you, but aren't fully prepared to go back.\nNevertheless, you get in the car and start to drive");
             Console.WriteLine("\n\nAs you're getting closer you have to stop and get gas.\nThe store clerk says, \"You're " + PlayerName + ", right? Why would you come back here after everything that happened with " + Character + "?\"");
-            Console.WriteLine("You brush the man off, and after getting gas continue the rest of the way.\n\nPress enter to continue");
-            Console.ReadLine();
+            Console.WriteLine("You brush the man off, and after getting gas continue the rest of the way.\n\n");
+            Setup.Save(1);
         }
         //quits the game
         public static void Quit()
