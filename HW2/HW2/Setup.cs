@@ -14,47 +14,62 @@ namespace Getaway
 {
     internal class Setup
     {
-        static StreamWriter writer = new StreamWriter("HW2");
         
-
-        public static void NewGame()
+        
+        //start new game or load progress
+        public static int NewGame()
         {
-            Console.WriteLine("Start a new game or load previous save? (Y/N)");
-            string response = Console.ReadLine();
-            if(response == "Y")
+            try
             {
-                Setup.Load();
+                Console.WriteLine("Start a new game or load previous save? (Y/N)");
+                string response = Console.ReadLine().ToUpper();
+                if (response == "Y")
+                {
+                    return Setup.Load();
+                }
             }
-            if(response == "N")
+            catch
             {
-
+                return 0;
             }
+            return 0;
         }
 
-
+        //save progress
         public static void Save(int progress)
         {
-            Console.WriteLine("Saving will overwrite your previous save, are you sure? (Y/N)");
-            string response = Console.ReadLine();
-            if(response == "Y")
+            try
             {
-                writer.WriteLine(progress);
-                writer.Close();
+                Console.WriteLine("Saving will overwrite your previous save, are you sure? (Y/N)");
+                string response = Console.ReadLine().ToUpper();
+                if (response == "Y")
+                {
+                    StreamWriter writer = new StreamWriter("HW2Save.txt");
+                    writer.WriteLine(progress.ToString());
+                    writer.Close();
+                    Console.WriteLine("Success");
+                    Console.ReadLine();
+                }
             }
-            if(response == "N")
+            catch
             {
                 Console.WriteLine("Your funeral... enter to continue");
                 Console.ReadLine();
             }
         }
 
+        //load progress
         public static int Load()
         {
-            StreamReader reader = new StreamReader("HW2");
-            int progress;
-            int.TryParse(reader.ReadLine(), out progress);
-            reader.Close();
-            return progress;
+            try
+            {
+                StreamReader reader = new StreamReader("HW2Save.txt");
+                int progress;
+                int.TryParse(reader.ReadLine(), out progress);
+                reader.Close();
+                return progress;
+            }
+            catch { return 0; }
         }
 
 
@@ -318,7 +333,16 @@ namespace Getaway
             Console.WriteLine("You prepare some things to take with you, but aren't fully prepared to go back.\nNevertheless, you get in the car and start to drive");
             Console.WriteLine("\n\nAs you're getting closer you have to stop and get gas.\nThe store clerk says, \"You're " + PlayerName + ", right? Why would you come back here after everything that happened with " + Character + "?\"");
             Console.WriteLine("You brush the man off, and after getting gas continue the rest of the way.\n\n");
-            Setup.Save(1);
+            Console.WriteLine("Would you like to save or quit? (S/Q)");
+            answer = Console.ReadLine().ToUpper().Trim();
+            if(answer == "S")
+            {
+                Setup.Save(1);
+            }
+            if(answer == "Q")
+            {
+                Setup.Quit();
+            }
         }
         //quits the game
         public static void Quit()

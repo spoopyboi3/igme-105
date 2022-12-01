@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 /*Name: HW6 - The Getaway
  *Creator: Alex Gayne
  *Date: 11/17/2022
@@ -73,7 +74,16 @@ namespace Getaway
                 Console.WriteLine("Press enter to continue");
                 Console.ReadLine();
             }
-            Setup.Save(2);
+            Console.WriteLine("Would you like to save or quit? (S/Q)");
+            string answer = Console.ReadLine().ToUpper().Trim();
+            if (answer == "S")
+            {
+                Setup.Save(2);
+            }
+            if (answer == "Q")
+            {
+                Setup.Quit();
+            }
         }
 
         //challenge for once the door is open
@@ -268,7 +278,16 @@ namespace Getaway
                         Console.ReadLine();
                         break;
                 }
-                Setup.Save(3);
+                Console.WriteLine("Would you like to save or quit? (S/Q)");
+                string answer = Console.ReadLine().ToUpper().Trim();
+                if (answer == "S")
+                {
+                    Setup.Save(3);
+                }
+                if (answer == "Q")
+                {
+                    Setup.Quit();
+                }
             }
         }
 

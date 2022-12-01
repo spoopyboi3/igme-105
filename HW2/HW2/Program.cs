@@ -25,9 +25,9 @@ namespace Getaway
             Building building = new Building();
             Yard yard = new Yard();
             BlackRat blackRat = new BlackRat();
-            int progress = 0;
-            Setup.NewGame();
-
+            
+            int progress = Setup.NewGame();
+            
             switch (progress)
             {
                 case 0:
@@ -50,6 +50,7 @@ namespace Getaway
                     goto case 1;
 
                 case 1:
+                    Console.ForegroundColor = ConsoleColor.DarkYellow;
                     //yard method
                     Yard.Walking(setup.Character, yard.Steps_Needed);
 
@@ -58,6 +59,7 @@ namespace Getaway
                     goto case 2;
 
                 case 2:
+                    Console.ForegroundColor = ConsoleColor.DarkYellow;
                     //challenge once door is unlocked
                     Building.FrontDoorChallenge(setup.Letter, animals.Eyes, animals.Toes, animals.Names, animals.Legs, setup.Difficulty, animals.ISConsumed);
 
@@ -69,6 +71,7 @@ namespace Getaway
                     goto case 3;
 
                 case 3:
+                    Console.ForegroundColor = ConsoleColor.DarkYellow;
                     //in basement, move through obstacles to generator
                     Basement.BasementRooms(basement.BaseMove, setup.Letter, blackRat.AttackSkill);
                     goto default;
