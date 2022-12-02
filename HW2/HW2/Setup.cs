@@ -47,7 +47,7 @@ namespace Getaway
                     StreamWriter writer = new StreamWriter("HW2Save.txt");
                     writer.WriteLine(progress.ToString());
                     writer.Close();
-                    Console.WriteLine("Success");
+                    Console.WriteLine("Success, enter to continue");
                     Console.ReadLine();
                 }
             }
